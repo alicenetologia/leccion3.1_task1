@@ -13,7 +13,6 @@ class ConditionerTest {
         conditioner.increaseCurrentTemperature();
 
         assertEquals(19, conditioner.getCurrentTemperature());
-
     }
 
     @Test
@@ -23,9 +22,7 @@ class ConditionerTest {
         conditioner.increaseCurrentTemperature();
 
         assertEquals(30, conditioner.getCurrentTemperature());
-
     }
-
 
     @Test
     public void shouldIncreaseCurrentTemperature3() {
@@ -34,9 +31,7 @@ class ConditionerTest {
         conditioner.increaseCurrentTemperature();
 
         assertEquals(15, conditioner.getCurrentTemperature());
-
     }
-
 
     @Test
     public void shouldDecreaseCurrentTemperature1() {
@@ -45,7 +40,6 @@ class ConditionerTest {
         conditioner.decreaseCurrentTemperature();
 
         assertEquals(17, conditioner.getCurrentTemperature());
-
     }
 
     @Test
@@ -55,7 +49,6 @@ class ConditionerTest {
         conditioner.decreaseCurrentTemperature();
 
         assertEquals(15, conditioner.getCurrentTemperature());
-
     }
 
     @Test
@@ -65,8 +58,5 @@ class ConditionerTest {
         conditioner.decreaseCurrentTemperature();
 
         assertEquals(30, conditioner.getCurrentTemperature());
-
     }
-
-
 }
